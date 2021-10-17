@@ -10,9 +10,17 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.css')}}">
+
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
+        <!-- Icons -->
+        <link rel="stylesheet" type="text/css" href="{{url('css/fontawesome.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url('css/fontawesome/css/all.css')}}">
 
+        <link rel="stylesheet">
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
@@ -33,4 +41,15 @@
             </main>
         </div>
     </body>
+
+    <!-- latest jquery-->
+    <script src="{{url('assets/js/jquery-3.3.1.min.js')}}"></script>
+
+    <!-- popper js-->
+    <script src="{{url('assets/js/popper.min.js')}}"></script>
+
+    <!-- Bootstrap js-->
+    <script src="{{url('assets/js/bootstrap.js')}}"></script>
+
+    @yield('after-scripts')
 </html>

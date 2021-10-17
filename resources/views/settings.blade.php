@@ -126,7 +126,7 @@
                                 @enderror
                             </div>
 
-                            <button type="submit" class="btn btn-solid">UPDATE SETTINGS</button>
+                            <button type="submit" class="btn btn-primary">UPDATE SETTINGS</button>
                         </form>
                     </div>
                 </div>

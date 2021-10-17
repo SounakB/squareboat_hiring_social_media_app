@@ -62,3 +62,7 @@
     margin-top: 10px;
     display: inline-block;
 }
+.image-input-group {
+    background-color: #f8f9fa;
+    padding: 20px;
+}

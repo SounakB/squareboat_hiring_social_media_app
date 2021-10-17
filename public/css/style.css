@@ -1,0 +1,64 @@
+:root {
+    --theme-deafult: #c228ba; }
+.post-btn-grp{
+    margin-top: 10px
+}
+.display-none{
+    display: none
+}
+#imgPreviewContainer{
+    position: relative;
+}
+#imgClear{
+    position: absolute;
+    /*right: 0px;
+    border-radius: 50%;*/
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    font-size: 20px
+}
+.btn-pink{
+    background: var(--theme-deafult);
+    color: white;
+}
+.activities{
+    margin-top: 20px
+}
+.activity-item p{
+    font-size: 18px;
+}
+.activity-item a{
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+}
+.img-square {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+.img-square img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.message-left {
+    background: #f8f9fa;
+    border-radius: 0 10px 10px 0;
+}
+.p-2 {
+    padding: .5rem!important;
+    font-size: 18px;
+}
+.fas.like-btn {
+    color: var(--theme-deafult);
+}
+.account-nav{
+    padding-left: 0;
+}
+.account-nav li {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
